@@ -11,7 +11,7 @@
 1. リポジトリをクローン
 
    ```
-   
+   git clone https://gitlab.com/welcome-to-sodai/react.git rails_app/readock
    ```
 
 2. readockの階層で
