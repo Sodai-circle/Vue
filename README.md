@@ -26,3 +26,25 @@
 
 4. [ここに](http://localhost)アクセスし、うまくいっているか確認
 
+
+## 使い方
+
+- 始めるとき readockの階層で
+   ```bash
+   docker-compose up -d node
+   ```
+- 終わるとき
+   ```bash
+   docker-compose down
+   ```
+
+## まとめ
+
+- Reactの環境構築ができた
+
+## Next Step
+
+- Reactを勉強していくのみ!
+- Sodai.でチュートリアル作ってくれる方募集中です...
+
+   
