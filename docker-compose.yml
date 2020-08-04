@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  node:
+    build:
+      context: ./node
+      args:
+        - NODEJS_VERSION=${NODEJS_VERSION}
+    ports:
+        - "3000:3000"
+    volumes:
+        - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
+    stdin_open: true
