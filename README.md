@@ -24,7 +24,7 @@
    docker-compose up -d node
    ```
 
-4. [ここに](http://localhost)アクセスし、うまくいっているか確認
+4. [ここに](http://localhost:3000)アクセスし、うまくいっているか確認
 
 
 ## 使い方
