@@ -4,4 +4,4 @@ FROM node:${NODEJS_VERSION}
 
 WORKDIR /var/src/app
 
-CMD [ "sh", "-c","yarn start" ]
+CMD [ "sh", "-c","npm run dev" ]

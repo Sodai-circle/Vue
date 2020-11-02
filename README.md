@@ -2,29 +2,35 @@
 
 - node.js + reactの環境です。
 
-- dockerを使ったreactの環境構築なのでreadockと名付けています。
+- dockerを使ったvueの環境構築なのでvuedockと名付けています。
 
   
 
-## ReaDock
+## VueDock
 
 1. リポジトリをクローン
 
    ```
-   git clone https://gitlab.com/welcome-to-sodai/react.git react_app/readock
+   git clone https://gitlab.com/welcome-to-sodai/vue.git vue_app/vuedock
    ```
 
-2. readockの階層で
+2. vuedockの階層で
 
    ```
-   docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app ."
+   docker-compose run --rm node sh -c "npm install -g vue-cli && vue init webpack ."
+   ```
+
+   - 基本そのままEnterをおす。
+   - config/index.jsの該当部分を以下にする
+   ```
+    host: '0.0.0.0', // can be overwritten by process.env.HOST
    ```
 
 3. ```
    docker-compose up -d node
    ```
 
-4. [ここに](http://localhost:3000)アクセスし、うまくいっているか確認
+4. [ここに](http://localhost:8080)アクセスし、うまくいっているか確認
 
 
 ## 使い方
@@ -40,11 +46,11 @@
 
 ## まとめ
 
-- Reactの環境構築ができた
+- Vueの環境構築ができた
 
 ## Next Step
 
-- Reactを勉強していくのみ!
+- Vueを勉強していくのみ!
 - Sodai.でチュートリアル作ってくれる方募集中です...
 
    
