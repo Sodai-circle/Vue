@@ -21,6 +21,7 @@
    ```
 
    - 基本そのままEnterをおす。
+   
    - config/index.jsの該当部分を以下にする
    ```
     host: '0.0.0.0', // can be overwritten by process.env.HOST
