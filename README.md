@@ -1,6 +1,6 @@
-# React環境構築
+# Vue環境構築
 
-- node.js + reactの環境です。
+- node.js + vueの環境です。
 
 - dockerを使ったvueの環境構築なのでvuedockと名付けています。
 
@@ -11,7 +11,7 @@
 1. リポジトリをクローン
 
    ```
-   git clone https://gitlab.com/welcome-to-sodai/vue.git vue_app/vuedock
+   git clone https://gitlab.com/welcome-to-sodai/vue_.git vue_app/vuedock
    ```
 
 2. vuedockの階層で
