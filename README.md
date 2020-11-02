@@ -11,13 +11,13 @@
 1. リポジトリをクローン
 
    ```
-   git clone https://gitlab.com/welcome-to-sodai/react.git rails_app/readock
+   git clone https://gitlab.com/welcome-to-sodai/react.git react_app/readock
    ```
 
 2. readockの階層で
 
    ```
-   docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app react_app"
+   docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app ."
    ```
 
 3. ```
