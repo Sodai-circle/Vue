@@ -53,5 +53,6 @@
 
 - Vueを勉強していくのみ!
 - Sodai.でチュートリアル作ってくれる方募集中です...
+- [参考](https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3/)
 
    
