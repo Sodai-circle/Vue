@@ -2,16 +2,12 @@
 
 - node.js + vueの環境です。
 
-- dockerを使ったvueの環境構築なのでvuedockと名付けています。
-
-  
-
 ## VueDock
 
 1. リポジトリをクローン
 
    ```
-   git clone https://gitlab.com/welcome-to-sodai/vue_.git vue_app/vuedock
+   git clone https://github.com/Sodai-circle/Vue.git vue_app/vuedock
    ```
 
 2. vuedockの階層で
@@ -44,15 +40,5 @@
    ```bash
    docker-compose down
    ```
-
-## まとめ
-
-- Vueの環境構築ができた
-
-## Next Step
-
-- Vueを勉強していくのみ!
-- Sodai.でチュートリアル作ってくれる方募集中です...
-- [参考](https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3/)
 
    
