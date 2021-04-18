@@ -13,26 +13,29 @@
 2. vuedockの階層で
 
    ```
-   docker-compose run --rm node sh -c "npm install -g vue-cli && vue init webpack ."
+   docker-compose build node
    ```
-
-   - 基本そのままEnterをおす。
    
-   - config/index.jsの該当部分を以下にする
    ```
-    host: '0.0.0.0', // can be overwritten by process.env.HOST
-   ```
-
-3. ```
    docker-compose up -d node
+   docker-compose exec node bash
+   npm install -g @vue/cli@next
+   vue create 名前
    ```
 
-4. [ここに](http://localhost:8080)アクセスし、うまくいっているか確認
+   - 基本そのままEnterをおす。vueのバージョンは選択する。
+   
+   ```
+   cd 名前
+   npm run serve
+   ```
+
+3. [ここに](http://localhost:8080)アクセスし、うまくいっているか確認
 
 
 ## 使い方
 
-- 始めるとき readockの階層で
+- 始めるとき vuedockの階層で
    ```bash
    docker-compose up -d node
    ```
