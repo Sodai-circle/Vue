@@ -19,7 +19,7 @@
    ```
    docker-compose up -d vue
    docker-compose exec vue bash
-   vue create 名前
+   vue create .
    ```
 
    - 基本そのままEnterをおす。vueのバージョンは選択する。
@@ -45,7 +45,6 @@
       </details>
    
    ```
-   cd 名前
    yarn serve
    ```
 
