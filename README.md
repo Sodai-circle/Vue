@@ -1,6 +1,6 @@
 # Vue環境構築
 
-- node.js + vueの環境です。
+- vueの環境です。
 
 ## VueDock
 
@@ -13,21 +13,21 @@
 2. vuedockの階層で
 
    ```
-   docker-compose build node
+   docker-compose build vue
    ```
    
    ```
-   docker-compose up -d node
-   docker-compose exec node bash
-   npm install -g @vue/cli@next
+   docker-compose up -d vue
+   docker-compose exec vue bash
    vue create 名前
    ```
 
    - 基本そのままEnterをおす。vueのバージョンは選択する。
+   - typescriptを入れる場合はここで選択する。
    
    ```
    cd 名前
-   npm run serve
+   yarn serve
    ```
 
 3. [ここに](http://localhost:8080)アクセスし、うまくいっているか確認
@@ -37,7 +37,7 @@
 
 - 始めるとき vuedockの階層で
    ```bash
-   docker-compose up -d node
+   docker-compose up -d vue
    ```
 - 終わるとき
    ```bash
